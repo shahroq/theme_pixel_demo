@@ -1,0 +1,26 @@
+Dropzone.prototype.defaultOptions["dictDefaultMessage"] = "Drop files here or click to upload.";
+Dropzone.prototype.defaultOptions["dictFallbackMessage"] = "Your browser does not support drag'n'drop file uploads.";
+Dropzone.prototype.defaultOptions["dictFallbackText"] = "Please use the fallback form below to upload your files like in the olden days.";
+Dropzone.prototype.defaultOptions["dictFileTooBig"] = "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.";
+Dropzone.prototype.defaultOptions["dictInvalidFileType"] = "You can't upload files of this type.";
+Dropzone.prototype.defaultOptions["dictResponseError"] = "Server responded with {{statusCode}} code.";
+Dropzone.prototype.defaultOptions["dictCancelUpload"] = "Cancel upload";
+Dropzone.prototype.defaultOptions["dictCancelUploadConfirmation"] = "Are you sure you want to cancel this upload?";
+Dropzone.prototype.defaultOptions["dictRemoveFile"] = "Remove file";
+Dropzone.prototype.defaultOptions["dictMaxFilesExceeded"] = "You can not upload any more files.";
+Dropzone.prototype.defaultOptions["resizeQuality"] = 0.8;
+Dropzone.prototype.defaultOptions["chunking"] = true;
+Dropzone.prototype.defaultOptions["chunkSize"] = 536860912;
+Dropzone.prototype.defaultOptions["timeout"] = 90000;
+Dropzone.prototype.defaultOptions.defaultParams = Dropzone.prototype.defaultOptions.params;
+Dropzone.prototype.defaultOptions.params = function(files, xhr, chunk) {
+    var params = this.options.defaultParams.call(this, files, xhr, chunk) || {};
+    var extraParams = {"ccm_token":"1748458913:d76732a36a517e1936e6b99b6b7d7d43"};
+
+    var keys = Object.keys(extraParams);
+    for (var i = 0; i < keys.length; i++) {
+        params[keys[i]] = extraParams[keys[i]];
+    }
+
+    return params;
+};

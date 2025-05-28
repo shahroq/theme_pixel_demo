@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Blog</title>
+    <description>concrete5 Blog</description>
+    <generator>Zend_Feed_Writer 2 (http://framework.zend.com)</generator>
+    <link>http://kwsoft-pixel.test/blog</link>
+    <item>
+      <title>A Beautiful Site Deserves a Beautiful Blog</title>
+      <description><![CDATA[<p><img src="http://kwsoft-pixel.test/application/files/1115/8982/9917/blog-image-3.jpg" /></p>Donec blandit lectus nec neque ullamcorper rhoncus. Sed adipiscing tempus sem eu molestie. Aenean laoreet pretium ante vitae ultrices. Aenean eu gravida magna, vel aliquet magna. In auctor convallis gravida. Phasellus est erat.]]></description>
+      <pubDate>Fri, 01 Aug 2014 16:30:00 +0000</pubDate>
+      <link>http://kwsoft-pixel.test/blog/a-beautiful-blog</link>
+      <guid>http://kwsoft-pixel.test/blog/a-beautiful-blog</guid>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Another Blog Post</title>
+      <description><![CDATA[<p><img src="http://kwsoft-pixel.test/application/files/6414/9251/3710/blog-image-2.jpg" /></p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet consectetur lacus. Vestibulum neque lectus, egestas non cursus vitae, aliquam at magna.]]></description>
+      <pubDate>Fri, 04 Jul 2014 15:00:00 +0000</pubDate>
+      <link>http://kwsoft-pixel.test/blog/another-blog-post</link>
+      <guid>http://kwsoft-pixel.test/blog/another-blog-post</guid>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <description><![CDATA[<p><img src="http://kwsoft-pixel.test/application/files/4914/9251/3709/blog-image-1.jpg" /></p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna. Quisque dignissim neque a ipsum sodales, mattis aliquam ante dictum.]]></description>
+      <pubDate>Tue, 01 Jul 2014 12:00:00 +0000</pubDate>
+      <link>http://kwsoft-pixel.test/blog/hello-world</link>
+      <guid>http://kwsoft-pixel.test/blog/hello-world</guid>
+      <slash:comments>0</slash:comments>
+    </item>
+  </channel>
+</rss>

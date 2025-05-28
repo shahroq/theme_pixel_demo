@@ -1,0 +1,93 @@
+/*
+*  Whale Parallax Area
+*/
+.wpa-1 {
+  background-color: #ff6b08;
+  opacity: 1;
+  background-repeat: no-repeat !important;
+  background-size: auto !important;
+  background-image: url("http://kwsoft-pixel.test/kwsoft_pixel/application/files/4115/8973/1487/img-12-2.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+@media (min-width: 768px) {
+  .wpa-1 {
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .wpa-1 {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+}
+/*overlay*/
+.wpa-1 {
+  position: relative;
+}
+.wpa-1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  background-color: #000000;
+  opacity: 0.3;
+}
+.wpa-2 {
+  background-color: #ff6b08;
+  opacity: 1;
+  background-repeat: repeat !important;
+  background-size: auto !important;
+  background-image: url("http://kwsoft-pixel.test/kwsoft_pixel/application/files/5815/8973/1504/red-bg.png");
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+@media (min-width: 768px) {
+  .wpa-2 {
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .wpa-2 {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+}
+/*overlay*/
+.wpa-2 {
+  position: relative;
+}
+.wpa-2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  background-color: #ffffff;
+  opacity: 0.1;
+}
